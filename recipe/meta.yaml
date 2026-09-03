@@ -1,5 +1,5 @@
 {% set name = "asciidoctor-pdf" %}
-{% set version = "2.3.24" %}
+{% set version = "2.3.27" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-    sha256: 3076e55132d43b21de93cd7c8149a8c1b2e4afc07e79855fb6b795a0ef20b051
+    sha256: fd828e6d8663bbeb3c808ba2286631c2830de0d18f98f89e08cd5525a3747044
   - path: asciidoctor-pdf.bat
 
 build:
